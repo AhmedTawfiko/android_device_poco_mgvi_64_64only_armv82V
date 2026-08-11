@@ -1,0 +1,5 @@
+export TW_THEME=portrait_hdpi
+export TARGET_SCREEN_WIDTH=1080
+export TARGET_SCREEN_HEIGHT=2400
+export ALLOW_MISSING_DEPENDENCIES=true
+export LC_ALL=C
