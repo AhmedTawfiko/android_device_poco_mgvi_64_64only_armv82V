@@ -49,3 +49,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # Fix for vendor root symlink conflict at 99%
 BOARD_ROOT_EXTRA_FOLDERS += vendor
+
+# Partition Sizes (لحاجات التشفير الخاصة بأداة AVB)
+BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
