@@ -130,7 +130,6 @@
 /(vendor|system/vendor)/bin/hw/mtkfusionrild                                                u:object_r:rild_exec:s0
 /(vendor|system/vendor)/app/mcRegistry(/.*)?                       u:object_r:mobicore_vendor_file:s0
 /(odm|vendor|system/vendor)/bin/hw/miteetuid    u:object_r:hal_miteetui_default_exec:s0
-/(odm|vendor/odm|system/vendor)/bin/payjoyca     u:object_r:hal_mpayjoyca_default_exec:s0
 /(vendor|system/vendor)/bin/hw/wpa_supplicant                                 u:object_r:hal_wifi_supplicant_default_exec:s0
 /(vendor|system/vendor)/bin/vndservicemanager                                 u:object_r:vndservicemanager_exec:s0
 /(vendor|system/vendor)/lib(64)?/libbcinfo\.so u:object_r:same_process_hal_file:s0

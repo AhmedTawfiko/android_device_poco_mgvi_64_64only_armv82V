@@ -22,7 +22,7 @@
 # This macro conditionally exposes SELinux rules ensuring they are available
 # only when the board API level is below the specified 'api_level'.
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/plat_property_contexts.recovery/android_recovery_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/plat_property_contexts.recovery/android_recovery_common/dash/newline"
 
 #line 1 "system/sepolicy/private/property_contexts"
 ##########################
@@ -1733,5 +1733,5 @@ persist.crashrecovery.last_factory_reset u:object_r:crashrecovery_prop:s0 exact 
 # Properties for controlling snapshotctl.
 sys.snapshotctl.map u:object_r:snapshotctl_prop:s0 exact string
 sys.snapshotctl.unmap u:object_r:snapshotctl_prop:s0 exact string
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/plat_property_contexts.recovery/android_recovery_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/plat_property_contexts.recovery/android_recovery_common/dash/newline"
 

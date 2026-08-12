@@ -22,7 +22,7 @@
 # This macro conditionally exposes SELinux rules ensuring they are available
 # only when the board API level is below the specified 'api_level'.
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/base/private/property_contexts"
 # ==============================================
@@ -356,7 +356,7 @@ persist.collision.     u:object_r:system_mtk_collision_prop:s0
 persist.suscollision.  u:object_r:system_mtk_collision_prop:s0
 sys.boot.gsensor       u:object_r:system_mtk_collision_prop:s0
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/debug/private/property_contexts"
 # ==============================================
@@ -379,12 +379,12 @@ vendor.mbrain.battery u:object_r:system_mtk_mbrain_prop:s0
 
 #charge pstore
 persist.vendor.pstore.model u:object_r:system_mtk_pstore_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/third_party/private/property_contexts"
 
 init.svc.zygote_hbt u:object_r:init_service_status_prop:s0 exact string
 
 hbt. u:object_r:system_mtk_hbt_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/system_ext_property_contexts/android_common/dash/newline"
 

@@ -22,7 +22,7 @@
 # This macro conditionally exposes SELinux rules ensuring they are available
 # only when the board API level is below the specified 'api_level'.
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/base/vendor/property_contexts"
 # ==============================================
@@ -867,7 +867,7 @@ vendor.mtk.mfrc.    u:object_r:vendor_mtk_mfrc_prop:s0
 
 # HEIF decoder property
 vendor.media.heif.highThreshold u:object_r:vendor_mtk_heif_decode_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/debug/vendor/property_contexts"
 # ==============================================
@@ -909,7 +909,7 @@ vendor.mdl_ctrl.sd_start u:object_r:vendor_mtk_mdl_ctrl_sd_start_type_prop:s0
 
 # MTK MFRC property
 vendor.debug.forcibly_enable_mfrc u:object_r:vendor_mtk_mfrc_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/mediatek/sepolicy/third_party/vendor/property_contexts"
 # MICROTRUST Policy Rule
@@ -927,7 +927,7 @@ ro.vendor.trustonic.ready u:object_r:vendor_trustonic_prop:s0 exact bool
 ro.vendor.trustkernel. u:object_r:vendor_mtk_trustkernel_tee_prop:s0
 vendor.trustkernel.    u:object_r:vendor_mtk_trustkernel_tee_prop:s0
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/xiaomi/sepolicy_vndr/generic/vendor/common/property_contexts"
 # MIUI ADD: WIFI_SAR
@@ -989,11 +989,11 @@ ro.vendor.ril.oem.wifimac    u:object_r:vendor_ril_oem_prop:s0
 # END WIFI_BugFixUpstream
 
 ro.vendor.ril.oem.btmac    u:object_r:vendor_ril_oem_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/batteryantiaging/aidl/default/sepolicy/mtk/property_contexts"
 persist.vendor.batteryantiaging     u:object_r:vendor_batteryantiaging_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/xiaomi/sepolicy_vndr/nfc/sepolicy/property_contexts"
 # NFC
@@ -1003,13 +1003,13 @@ ro.vendor.se.           u:object_r:vendor_nfc_mi_prop:s0
 
 # TMS NFC properties
 vendor.tms.nfc.                u:object_r:vendor_tms_nfc_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/xiaomi/sepolicy_vndr/Color/property_contexts"
 # wallpapaer
 vendor.wallpaper.color.start          u:object_r:vendor_color_prop:s0
 vendor.wallpaper.color.flag                u:object_r:vendor_color_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/modem/hal/config/sepolicy/common/property_contexts"
 # sno
@@ -1024,7 +1024,7 @@ persist.vendor.radio.imei      u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.imei             u:object_r:vendor_deviceid_prop:s0
 persist.vendor.radio.meid      u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.meid             u:object_r:vendor_deviceid_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "device/xiaomi/sepolicy_vndr/camera/property_contexts"
 # for skynet
@@ -1048,7 +1048,7 @@ persist.vendor.camera.     u:object_r:vendor_mtkcam_prop:s0
 persist.vendor.EnableP3ColorSpace  u:object_r:vendor_camera_p3_prop:s0
 persist.vendor.XDRVersion  u:object_r:vendor_camera_xdr_prop:s0
 persist.vendor.cameraid.totalnum  u:object_r:vendor_camera_totalnum_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/misys/hypsys/hypsys_vendor/common/default/sepolicy/common/modules_policy/property_contexts"
 # BSPLogProcessor
@@ -1060,14 +1060,14 @@ persist.vendor.hypsys_vendor.s3start_count  u:object_r:vendor_minidump_prop:s0
 persist.vendor.stability.  u:object_r:vendor_persist_stability:s0
 persist.vendor.stability.hyper_clto.    u:object_r:vendor_stability_prop:s0
 persist.vendor.sys.stability.    u:object_r:vendor_stability_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mitee_ree/sepolicy/35/property_contexts"
 #MITEE add for tee
 vendor.teefs_state u:object_r:vendor_mtk_mitee_prop:s0
 ro.boot.tee_type u:object_r:vendor_mtk_mitee_prop:s0
 ro.vendor.mtk_mitee_support u:object_r:vendor_mtk_mitee_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mtdservice/aidl/default/sepolicy/property_contexts"
 ro.boot.cpuid                                      u:object_r:vendor_cpuid_prop:s0
@@ -1084,43 +1084,39 @@ ro.vendor.oem.serialno                             u:object_r:vendor_deviceid_pr
 persist.vendor.sys.rkp.status                      u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.applet_configuration.status     u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.keymint_configuration.status    u:object_r:vendor_payment_security_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mfidoca/aidl/default/sepolicy/property_contexts"
 persist.vendor.sys.pay.fido              u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.pay.fido2             u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.pay.fido2pass         u:object_r:vendor_payment_security_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mlipay/aidl/default/sepolicy/property_contexts"
 persist.vendor.sys.pay.ifaa              u:object_r:vendor_payment_security_prop:s0
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/miriskmanager/impl/sepolicy/property_contexts"
 odm.security.rootpub.trigger                  u:object_r:vendor_payment_security_prop:s0
 odm.security.rotatekey.trigger                u:object_r:vendor_payment_security_prop:s0
 odm.security.rootpub.load                     u:object_r:vendor_payment_security_prop:s0
 odm.security.rotatekey.load                   u:object_r:vendor_payment_security_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mitrustedui/miteetui_ca/aidl/sepolicy/property_contexts"
 ro.vendor.mitee_tui.support                u:object_r:vendor_mitrustedui_prop:s0
 persist.vendor.mitee_tui.test              u:object_r:vendor_mitrustedui_prop:s0
 vendor.xiaomi.trustedvm.version            u:object_r:vendor_mitrustedui_prop:s0
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
-
-#line 1 "vendor/xiaomi/proprietary/mpayjoyca/aidl/default/sepolicy/property_contexts"
-persist.vendor.sys.pay.payjoy              u:object_r:vendor_payment_security_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/idmanager/aidl/sepolicy/property_contexts"
 persist.vendor.sys.idmgr.attestation.status       u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.idmgr.attestation.se.status    u:object_r:vendor_payment_security_prop:s0
 persist.vendor.sys.idmgr.secid.status             u:object_r:vendor_payment_security_prop:s0
 ro.vendor.idmgr.initialized                       u:object_r:vendor_payment_security_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/touch/touchfeature_v2/sepolicy/property_contexts"
 #G Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
@@ -1157,7 +1153,7 @@ persist.vendor.touchfeature.           u:object_r:vendor_touchfeature_prop:s0
 persist.vendor.hostprocess.            u:object_r:vendor_touch_hostprocess_prop:s0
 ro.vendor.touch.touchscheduler.enable   u:object_r:vendor_touchfeature_prop:s0
 ro.vendor.touch.touchflinger.enable    u:object_r:vendor_touchfeature_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mifingerprint/sepolicy/property_contexts"
 
@@ -1181,14 +1177,14 @@ persist.vendor.sys.fp.info      u:object_r:vendor_fp_info_prop:s0
 
 persist.vendor.sys.fp.uid       u:object_r:vendor_fp_info_prop:s0
 
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mifingerprint/mfp_service/dtool/sepolicy/property_contexts"
 
 #dtool service selinux_policy
 
 vendor.dtool.           u:object_r:vendor_fp_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/miface/impl/res/sepolicy/common/property_contexts"
 
@@ -1199,7 +1195,7 @@ persist.vendor.miface.          u:object_r:vendor_miface_prop:s0
 vendor.debug.miface.            u:object_r:vendor_miface_debug_prop:s0
 ro.vendor.debug.miface.         u:object_r:vendor_miface_debug_prop:s0
 persist.vendor.debug.miface.    u:object_r:vendor_miface_debug_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/sensor/sepolicy/property_contexts"
 #cct
@@ -1213,7 +1209,7 @@ persist.vendor.sensor.deviceorient          u:object_r:vendor_deviceorient_prop:
 
 #for sensor mis check
 persist.vendor.sensor.mischeck          u:object_r:vendor_mischeck_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/display/common/sepolicy/property_contexts"
 
@@ -1617,7 +1613,7 @@ ro.vendor.display.max_hdr_luminance        u:object_r:vendor_displayfeature_prop
 
 # property for vivid calibration
 ro.vendor.display.vivid_calibration.enable    u:object_r:vendor_displayfeature_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mpbe/sepolicy/mtk/property_contexts"
 # mtk mpbe property
@@ -1631,7 +1627,7 @@ persist.vendor.mi.mpbe.config.update            u:object_r:vendor_mpbe_prop:s0
 persist.vendor.mi.mpbe.inference.duration       u:object_r:vendor_mpbe_prop:s0
 vendor.eara_io.enable                           u:object_r:vendor_mtk_eara_io_prop:s0
 vendor.eara_io.inference.duration               u:object_r:vendor_mtk_eara_io_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/slm/aidl/sepolicy/property_contexts"
 #slad
@@ -1639,28 +1635,28 @@ vendor.sla.enabled u:object_r:vendor_slad_prop:s0
 vendor.sla.uidwhitelist u:object_r:vendor_slad_prop:s0
 vendor.sla.wlan.interface u:object_r:vendor_slad_prop:s0
 vendor.sla.wwan.interface u:object_r:vendor_slad_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/miwillp/aidl/sepolicy/property_contexts"
 vendor.miwild.enabled u:object_r:vendor_miwild_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/minet/aidl/sepolicy/property_contexts"
 vendor.minetd.enabled u:object_r:vendor_minetd_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/thermald/sepolicy_mt6899/property_contexts"
 vendor.sys.thermal.data.path                             u:object_r:vendor_thermal_normal_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/cameraopt_release/sepolicy/common/property_contexts"
 # xiaomi camx prop
 vendor.camera.mipi.error          u:object_r:vendor_camera_mi_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/memory_tools/ghr/src/current/sepolicy/common/property_contexts"
 vendor.mi_ic.is.valid     u:object_r:vendor_mi_ic_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/memory_tools/mi_ric/sepolicy/common/property_contexts"
 vendor.mi_ric.is.valid                             u:object_r:vendor_mi_ric_prop:s0
@@ -1669,31 +1665,31 @@ vendor.mi_ric.io.ctrl                              u:object_r:vendor_mi_ric_prop
 vendor.mi_ric.io.starttime                         u:object_r:vendor_mi_ric_prop:s0
 vendor.mi_ric.io.worktime                          u:object_r:vendor_mi_ric_prop:s0
 vendor.mi_ric.io.workgap                           u:object_r:vendor_mi_ric_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/memory_tools/ffu/src/current/sepolicy/common/property_contexts"
 vendor.ffu.is.valid     u:object_r:vendor_ffu_prop:s0
 vendor.ffu.is.start     u:object_r:vendor_ffu_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/memory_fbo/fbo/aidl/default/sepolicy/property_contexts"
 persist.vendor.memory.fbo2status        u:object_r:vendor_fbo_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/dynamiccamera/sepolicy/common/property_contexts"
 
 ro.vendor.dynamiccamera.ability_level        u:object_r:vendor_dynamiccamera_config_prop:s0 exact int
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "vendor/xiaomi/proprietary/mivideo/videoservice/sepolicy/mtk-v/property_contexts"
 
 ro.vendor.video.codecmanager.enable         u:object_r:vendor_video_mi_prop:s0
 ro.vendor.video.freshmanager.enable         u:object_r:vendor_video_mi_prop:s0
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 
 #line 1 "system/sepolicy/reqd_mask/property_contexts"
 # empty property_contexts file - this file is used to generate an empty
 # non-platform property context for devices without any property_contexts
 # customizations.
-#line 1 "out/out_hal/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/mgvi_64_64only_armv82/newline"
+#line 1 "out/out_vext/soong/.intermediates/system/sepolicy/contexts/vendor_property_contexts/android_common/dash/newline"
 

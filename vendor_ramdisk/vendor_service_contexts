@@ -142,6 +142,7 @@ vendor.mediatek.hardware.log.ILog/LoggerHidlServer        u:object_r:mtk_hal_log
 vendor.tsa.hdcp.IHDCPInterface/default      u:object_r:tsa_hal_hdcp_service:s0
 vendor.trustonic.tee.ITee/default           u:object_r:hal_tee_service:s0
 vendor.trustonic.tui.ITui/default           u:object_r:hal_tee_service:s0
+android.hardware.media.c2.IComponentStore/xiaomi                   u:object_r:hal_codec2_service:s0
 android.hardware.media.c2.IComponentStore/dolby u:object_r:hal_codec2_service:s0
 android.hardware.media.c2.IComponentStore/default9                   u:object_r:hal_codec2_service:s0
 vendor.dolby.dms.IDms/default    u:object_r:hal_aidl_dms_service:s0
@@ -172,7 +173,6 @@ vendor.xiaomi.hardware.mrm.IMrmRemoteAuth/default  u:object_r:hal_mrm_service:s0
 vendor.xiaomi.hardware.misauth.IMiSharedAuth/default  u:object_r:hal_mrm_service:s0
 vendor.xiaomi.hardware.mitrustedui.IMiTrustedUIService/default u:object_r:hal_mitrustedui_service:s0
 vendor.xiaomi.hardware.miteetui.IMiTuiService/default u:object_r:hal_miteetui_service:s0
-vendor.xiaomi.hardware.mpayjoyca.IPayjoyService/default        u:object_r:hal_mpayjoyca_service:s0
 vendor.xiaomi.hardware.idmanager.IIdManagerService/default u:object_r:hal_idmanager_service:s0
 vendor.xiaomi.hardware.idmanager.ISecidService/default u:object_r:hal_idmanager_service:s0
 vendor.xiaomi.hardware.micharge.IMiCharge/default   u:object_r:hal_micharge_service:s0
