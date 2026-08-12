@@ -20,7 +20,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)
 
 # تم تعطيل السطر ده لمنع خطأ الـ rsync في آخر البناء
-# BOARD_PREBUILT_VENDOR_RAMDISK_DIRS += $(DEVICE_PATH)/vendor_ramdisk
+BOARD_PREBUILT_VENDOR_RAMDISK_DIRS += $(DEVICE_PATH)/vendor_ramdisk
 
 # TWRP/OrangeFox UI Settings
 TW_THEME := portrait_hdpi
