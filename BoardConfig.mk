@@ -44,3 +44,6 @@ TARGET_NO_RECOVERY := true
 # AVB Patching
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
+# Fix for vendor root symlink conflict at 99%
+BOARD_ROOT_EXTRA_FOLDERS += vendor
